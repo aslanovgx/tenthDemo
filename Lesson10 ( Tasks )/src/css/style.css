@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.turboAz {
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 100px;
+    padding: 19px 124px;
+    width: 100%;
+    height: 60px;
+}
+
+
+.all {
+    width: 999px;
+    height: 500px;
+    margin: 100px auto;
+
+}
+
+.head {
+    width: 229px;
+    height: 266px;
+    margin: 8px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    overflow: hidden;
+    display: inline-block;
+    box-shadow: 0 17px 34px 0 rgb(44 39 56 / 4%), 0 8px 17px 0 rgb(44 39 56 / 2%);
+}
+
+.head:hover {
+    box-shadow: 0 4px 8px 0 rgb(177 181 199 / 48%);
+}
+
+.head a {
+    text-decoration: none;
+    color: black;
+}
+
+.head a img {
+    width: 229px;
+    height: 171px;
+    object-fit: cover;
+}
+
+.head a .carDetails .money {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+.head a .carDetails {
+    padding: 10px;
+    color: #212c3a;
+}
+
+.head a .carDetails div {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 17px;
+}
+
+.head a .carDetails .money {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+.head a .carDetails .name {
+    margin-bottom: 1px;
+}
+
+.head a .carDetails .probeq {
+    margin-bottom: 3px;
+}
+
+.head a .carDetails .special {
+    color: #8d94ad;
+    font-size: 14px;
+}
